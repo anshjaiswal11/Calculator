@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascripts</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+ <div class="navbar">
+    <ul>
+    <li><a href="#" onclick="setOperation('add')">Addition</a></li>
+    <li><a href="#" onclick="setOperation('subtract')">Subtraction</a></li>
+    <li><a href="#" onclick="setOperation('multiply')">Multiplication</a></li>
+    <li><a href="#" onclick="setOperation('divide')">Division</a></li>
+    </ul>
+</div>
+<div class="box">
+    <div class="container">
+        <h1>Javascripts</h1>  
+        <input id="number1" type="text" placeholder="Enter number one" required>
+        <input id="number2" type="text" placeholder="Enter number two" required> 
+        <button class="glow-on-hover" type="button" onclick="start()">Calculate</button>
+        <p id="result"></p>
+    </div>
+</div>
+    <script src="function.js"></script>
+</body>
+</html>
