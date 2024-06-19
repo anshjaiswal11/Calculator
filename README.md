@@ -19,4 +19,4 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/javascript-calculator.git
+   git clone https://github.com/anshjaiswal11/calculator.git
